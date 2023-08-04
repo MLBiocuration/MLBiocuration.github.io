@@ -80,6 +80,7 @@ analytics:
 
 # Site Author
 author:
+  name             : "Machine Learning for BioCuration"
   avatar           : /images/site-logo.png
   bio              : "Your biography for the left-hand sidebar"
   location         : "Location"
