@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Machine Learning for BioCuration"
+  name             : "Collect and share machine learning advances for enhancing the biocuration process"
   avatar           : site-logo.png
-  bio              : "Collect and share machine learning advances for enhancing the biocuration process"
+  bio              : "Resources:"
   location         : # "Location"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
