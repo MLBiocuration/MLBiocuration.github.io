@@ -8,11 +8,5 @@
   margin-left: 0;
   margin-right: 0;
   width: 100%;
-  clear: both;
-  /* sticky footer fix start */
-  position: absolute;
-  bottom: 0em;
-  height: 10px;
-  /* sticky footer fix end */
   background-color: $lighter-gray;
 }
