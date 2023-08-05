@@ -3,10 +3,9 @@
    ========================================================================== */
 
 .page__footer {
-  @include clearfix;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-  width: 100%;
+  text-align: center;
+  padding: 3px;
   background-color: $lighter-gray;
+  float: left;
+  width: 100%;
 }
