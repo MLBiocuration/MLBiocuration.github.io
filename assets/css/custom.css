@@ -1,0 +1,6 @@
+/* Custom styles for the author avatar */
+.author__avatar {
+  border-radius: 0; /* Removes the circular shape to make it square */
+  width: auto; /* Ensures the image width is displayed in its natural size */
+  height: auto; /* Ensures the image height is displayed in its natural size */
+}
