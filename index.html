@@ -2,16 +2,5 @@
 layout: single
 author_profile: true
 sidebar:
-  nav: "main"  # Make sure this matches your navigation.yml in the _data folder.
+  nav: "navigation"  # This matches the sidebar navigation in your navigation.yml file.
 ---
-
-<div class="posts">
-  {% assign posts = site.news | sort: 'date' | reverse %}
-  {% for post in posts %}
-    <article class="post">
-      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-      <p>{{ post.excerpt }}</p>
-      <span>{{ post.date | date_to_string }}</span>
-    </article>
-  {% endfor %}
-</div>
