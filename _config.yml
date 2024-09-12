@@ -36,7 +36,7 @@ copyright_url            : "https://creativecommons.org/licenses/by-nc/4.0/deed.
 comments:
   provider               : "disqus" #"discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : https-mlbiocuration-github-io.disqus.com
+    shortname            : "https-mlbiocuration-github-io.disqus.com"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
