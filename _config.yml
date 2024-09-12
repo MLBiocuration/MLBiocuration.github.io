@@ -20,10 +20,12 @@ navigation:
     url: /about/
   - title: "News"
     url: /news/
-  - title: "Paper Collection"
+  - title: "Paper Collections"
     url: /papers/
   - title: "Tutorials"
     url: /tutorials/
+  - title: "Useful Links"
+    url: /links/
 
 # Site Settings
 locale                   : "en-US"
@@ -311,7 +313,11 @@ compress_html:
   ignore:
     envs: development
 
-
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title/
+    
 # Defaults
 defaults:
   # _posts
@@ -322,6 +328,8 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+      categories: 
+      tags:
