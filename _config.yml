@@ -113,10 +113,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "May not need"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  name             : # "May not need"
+  avatar           : "/assets/images/site-logo.png"
+  bio              : #"I am an **amazing** person."
+  location         : #"Somewhere"
   email            :
   links:
     - label: "Email"
@@ -141,14 +141,11 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
+    - label: "ISB"
       icon: "fab fa-fw fa-twitter-square"
       # url:
-    - label: "Facebook"
+    - label: "Alliance"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
       # url:
 
 
